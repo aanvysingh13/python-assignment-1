@@ -1,7 +1,8 @@
 import math
 
-x1, y1 = map(float, input("Enter coordinates of first point (x1 y1): ").split())
-x2, y2 = map(float, input("Enter coordinates of second point (x2 y2): ").split())
-
+x1 = float(input("Enter x1: "))
+y1 = float(input("Enter y1: "))
+x2 = float(input("Enter x2: "))
+y2 = float(input("Enter y2: "))
 distance = math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2)
 print("Euclidean Distance:", distance)
