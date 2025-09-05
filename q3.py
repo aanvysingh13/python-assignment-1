@@ -1,2 +1,4 @@
+import math at m
 r=int(input("Enter radius: "))
-print("The area of circle is: ", (22/7)*r*r)
+area=m.pi*r*r
+print("The area of circle is: ", area)
